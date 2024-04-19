@@ -1,0 +1,98 @@
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(195deg, #0b1f0d, #000000);
+  /* background-color: #1b160e; */
+}
+
+#login-section {
+  min-height: 60vh;
+  margin: 100px 0;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#login-section .container {
+  width: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+#login-section .container h2 {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+#login-section .container .form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+#login-section .container .form-group a {
+  color: #6bf019;
+  width: 90%;
+  font-size: 0.9rem;
+}
+
+#login-section .container .form-group a:hover {
+  color: #214e04;
+}
+
+#login-section .container #login-form {
+  width: 50%;
+  margin: 5px auto;
+  padding: 20px;
+  border-top: 1px solid #6bf019;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-section .container #login-form input {
+  font-size: 16px;
+  width: 100%;
+  padding: 10px 10px;
+  margin: 5px auto;
+}
+
+#login-section .container #login-btn {
+  cursor: pointer;
+  background-color: #6bf019;
+  color: #fff;
+  border-radius: 2px;
+  border: none;
+}
+
+#login-section .container #login-btn:hover {
+  background-color: #214e04;
+}
+
+#login-section .container #register-url {
+  text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+  #login-section .container {
+    width: 100%;
+  }
+  #login-section .container #login-form {
+    width: 60%;
+  }
+}
+
+@media (max-width: 800px) {
+  #login-section .container #login-form {
+    width: 90%;
+  }
+}

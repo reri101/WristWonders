@@ -1,0 +1,65 @@
+$marg_bott: 20px;
+$add_normal: linear-gradient(195deg, rgb(198, 223, 186), rgb(173, 214, 147));
+$add_hover: linear-gradient(195deg, rgb(81, 189, 15), rgb(2, 112, 20));
+
+.add_cat_container .card .card-body input,
+textarea {
+  font-size: 16px;
+  width: 100%;
+  padding: 10px 10px;
+  margin: 5px 0;
+  border-radius: 7px;
+}
+
+.add_cat_container .card .card-body .card_column-1 {
+  margin-bottom: $marg_bott;
+  width: 49%;
+}
+
+.add_cat_container .card .card-body .card_column-2 {
+  margin-bottom: $marg_bott;
+  width: 100%;
+}
+
+.add_cat_container .card .card-body .card_column-3 {
+  margin-bottom: $marg_bott;
+  width: 24%;
+}
+
+.add_cat_container .card .card-body .card_column-4 {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: start;
+  margin-bottom: $marg_bott;
+  width: 32%;
+}
+
+.add_cat_container .card .card-body .quantity-form {
+  width: 120px;
+}
+.add_cat_container .card .card-body .price-form {
+  width: 200px;
+}
+
+.add_cat_container .card .card-body .card-add_button {
+  margin: 30px 0;
+  width: 100%;
+}
+
+.add_cat_container .card .card-body #add-btn {
+  width: auto;
+  padding: 10px 30px;
+  background-image: $add_normal;
+}
+
+.add_cat_container .card .card-body #add-btn:hover {
+  background-image: $add_hover;
+}
+
+.add_cat_container .card .card-body #category-method {
+  text-align: center;
+  width: 200px;
+  overflow-y: auto;
+  max-height: 120px;
+}

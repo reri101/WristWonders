@@ -1,0 +1,26 @@
+$edit_normal: linear-gradient(195deg, rgb(245, 230, 22), rgb(151, 129, 4));
+$edit_hover: linear-gradient(195deg, rgb(223, 223, 186), rgb(214, 204, 147));
+$delete_hover: linear-gradient(195deg, rgb(253, 71, 71), rgb(151, 2, 2));
+$delete_hover: linear-gradient(195deg, rgb(223, 186, 186), rgb(214, 147, 147));
+
+table td img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.edit {
+  background-image: $edit_normal;
+}
+
+.edit:hover {
+  background-image: $edit_hover;
+}
+
+.delete {
+  background-image: $delete_normal;
+}
+
+.delete:hover {
+  background-image: $delete_hover;
+}

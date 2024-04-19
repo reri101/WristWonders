@@ -1,0 +1,33 @@
+$edit_normal: linear-gradient(195deg, rgb(245, 230, 22), rgb(151, 129, 4));
+$edit_hover: linear-gradient(195deg, rgb(223, 223, 186), rgb(214, 204, 147));
+
+.orders table td {
+  padding: 17px 0;
+}
+
+.orders table td span {
+  font-size: 15px;
+  color: #6e6e6e;
+}
+
+.orders .card .card-body form {
+  justify-content: center;
+}
+
+.orders #status-method {
+  min-width: 220px;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.orders #status-metho option {
+  margin-top: 5px;
+}
+
+.edit {
+  background-image: $edit_normal;
+}
+
+.edit:hover {
+  background-image: $edit_hover;
+}

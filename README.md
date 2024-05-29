@@ -1,7 +1,8 @@
-Fully functional watch shop
+# Watch shop web application 
+Created using PHP, JavaScript, CSS, SCSS, MySql
 
 
-
+User Panel:
 
 https://github.com/reri101/WristWonders/assets/97965269/ae4fe29e-ceaa-4378-af79-afb6595b4529
 
@@ -21,6 +22,7 @@ https://github.com/reri101/WristWonders/assets/97965269/4bbaed46-5ff8-4e48-8ee8-
 https://github.com/reri101/WristWonders/assets/97965269/6bfd9415-d8ef-424f-89f4-a447d386a4ac
 
 
+Admin Panel:
 
 https://github.com/reri101/WristWonders/assets/97965269/9e4b818d-9adc-471d-9d3d-8d8f760d7848
 
